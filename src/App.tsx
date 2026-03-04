@@ -6,9 +6,6 @@ import { StartAttempt } from "./components/StartAttempt";
 import { TwoDice } from "./components/TwoDice";
 import { CycleHoliday } from "./components/CycleHoliday";
 import { Counter } from "./components/Counter";
-import { Button, Col, Container, Row } from "react-bootstrap";
-import image from '../src/meekmill.jpg'
-
 
 function App(): React.JSX.Element {
     return (
@@ -20,6 +17,12 @@ function App(): React.JSX.Element {
                 Edit <code>src/App.tsx</code> and save. This page will
                 automatically reload.
             </p>
+            <div><Counter/></div>
+            <div><RevealAnswer/></div>
+            <div><ChangeType/></div>
+            <div><StartAttempt/></div>
+            <div><TwoDice/></div>
+            <div><CycleHoliday/></div>
         </div>
     );
 }
