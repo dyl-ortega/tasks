@@ -21,14 +21,8 @@ function App(): React.JSX.Element {
                 Edit <code>src/App.tsx</code> and save. This page will
                 automatically reload.
             </p>
-            <div><Counter/></div>
-            <div><RevealAnswer/></div>
-            <div><ChangeType/></div>
-            <div><StartAttempt/></div>
-            <div><TwoDice/></div>
-            <div><CycleHoliday/></div>
             <hr></hr>
-            {/* <DoubleHalf></DoubleHalf> */}
+            <DoubleHalf></DoubleHalf>
             <hr></hr>
             <ChooseTeam></ChooseTeam>
             <hr></hr>
